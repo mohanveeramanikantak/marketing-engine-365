@@ -8,21 +8,13 @@
 
 ## Progress Overview
 
-| Phase | Completed | Total | Percentage |
-|-------|-----------|-------|------------|
-| Phase 1  | 1 | 30  | 0% |
-| Phase 2  | 0 | 60  | 0% |
-| Phase 3  | 0 | 90  | 0% |
-| Phase 4  | 0 | 120 | 0% |
-| Phase 5  | 0 | 150 | 0% |
-| Phase 6  | 0 | 180 | 0% |
-| Phase 7  | 0 | 115 | 0% |
-| Phase 8  | 0 | 210 | 0% |
-| Phase 9  | 0 | 240 | 0% |
-| Phase 10 | 0 | 270 | 0% |
-| Phase 11 | 0 | 300 | 0% |
-| Phase 12 | 0 | 365 | 0% |
-| **Total** | 1 | 365 | 0% |
+| Phase | Days | Focus | Key Outcome |
+|-------|------|-------|-------------|
+| 🧩 **Phase 1** | 001-030 | Foundations | Marketing mindset & core concepts |
+| 📱 **Phase 2** | 031-090 | Digital Marketing | Practical digital skills |
+| 🎓 **Phase 3** | 091-150 | College Marketing Specialization | Niche expertise |
+| 🤖 **Phase 4** | 151-250 | AI + Advanced Marketing | High-level differentiation |
+| 🏆 **Phase 5** | 251-365 | Execution + Portfolio | Real-world output & portfolio |
 
 ## Daily Log
 
