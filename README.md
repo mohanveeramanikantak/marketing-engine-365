@@ -23,7 +23,7 @@ Marketing Engine 365 is a **structured, day-by-day marketing program** designed 
 | 🧩 **Phase 1** | 001-030 | Foundations | Marketing mindset & core concepts |
 | 📱 **Phase 2** | 031-090 | Digital Marketing | Practical digital skills |
 | 🎓 **Phase 3** | 091-150 | College Marketing Specialization | Niche expertise |
-| 🤖 **Phase 4** | 151-250 | AI + Advanced Marketing | High-level differentiation |
+| 🤖 **Phase 4** | 151-250 | AI + Advanced Marketing | High-level differentiation | 
 | 🏆 **Phase 5** | 251-365 | Execution + Portfolio | Real-world output & portfolio |
 
 ---
