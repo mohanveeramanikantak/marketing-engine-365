@@ -7,127 +7,79 @@
 <title>Day 001 Quiz</title>
 
 <style>
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-        font-family: Arial, sans-serif;
-    }
 
-    body{
-        background: linear-gradient(135deg, #4facfe, #00f2fe);
-        min-height:100vh;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        padding:20px;
-    }
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    padding:20px;
+}
 
-    .quiz-container{
-        background:white;
-        width:100%;
-        max-width:700px;
-        padding:30px;
-        border-radius:20px;
-        box-shadow:0 10px 30px rgba(0,0,0,0.2);
-        animation: fadeIn 1s ease;
-    }
+.quiz-container{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
 
-    h1{
-        text-align:center;
-        margin-bottom:25px;
-        color:#333;
-        font-size:2rem;
-    }
+h1{
+    text-align:center;
+    color:#333;
+}
 
-    .question{
-        margin-bottom:25px;
-        padding:20px;
-        border-radius:15px;
-        background:#f7f9fc;
-        transition:0.3s;
-    }
+.question{
+    margin-bottom:25px;
+    padding:15px;
+    border-radius:10px;
+    background:#f5f7fa;
+}
 
-    .question:hover{
-        transform:translateY(-3px);
-        box-shadow:0 5px 15px rgba(0,0,0,0.1);
-    }
+label{
+    display:block;
+    padding:10px;
+    margin:8px 0;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
 
-    .question h2{
-        margin-bottom:15px;
-        color:#444;
-        font-size:1.1rem;
-    }
+label:hover{
+    background:#e3f2fd;
+}
 
-    label{
-        display:block;
-        padding:10px;
-        margin-bottom:10px;
-        border-radius:10px;
-        background:#fff;
-        cursor:pointer;
-        transition:0.3s;
-        border:2px solid transparent;
-    }
+.correct{
+    background:#c8f7c5 !important;
+    border:2px solid green;
+}
 
-    label:hover{
-        background:#e8f4ff;
-        border-color:#4facfe;
-    }
+.wrong{
+    background:#ffcdd2 !important;
+    border:2px solid red;
+}
 
-    input[type="radio"]{
-        margin-right:10px;
-    }
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#4facfe;
+    color:white;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
 
-    button{
-        width:100%;
-        padding:15px;
-        border:none;
-        border-radius:12px;
-        background:linear-gradient(135deg,#667eea,#764ba2);
-        color:white;
-        font-size:1rem;
-        font-weight:bold;
-        cursor:pointer;
-        transition:0.3s;
-    }
+button:hover{
+    background:#2196f3;
+}
 
-    button:hover{
-        transform:scale(1.02);
-        opacity:0.9;
-    }
+#result{
+    margin-top:20px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
 
-    #result{
-        margin-top:20px;
-        text-align:center;
-        color:#222;
-        font-size:1.5rem;
-    }
-
-    @keyframes fadeIn{
-        from{
-            opacity:0;
-            transform:translateY(20px);
-        }
-        to{
-            opacity:1;
-            transform:translateY(0);
-        }
-    }
-
-    @media(max-width:600px){
-        h1{
-            font-size:1.5rem;
-        }
-
-        .question h2{
-            font-size:1rem;
-        }
-
-        button{
-            font-size:0.9rem;
-        }
-    }
 </style>
 </head>
 
@@ -140,46 +92,46 @@
 <div class="question">
 <h2>1. Marketing mainly focuses on:</h2>
 
-<label><input type="radio" name="q1" value="a"> Selling</label>
-<label><input type="radio" name="q1" value="b"> Customer needs</label>
-<label><input type="radio" name="q1" value="c"> Profit only</label>
-<label><input type="radio" name="q1" value="d"> Production</label>
+<label id="q1a"><input type="radio" name="q1" value="a"> Selling</label>
+<label id="q1b"><input type="radio" name="q1" value="b"> Customer needs</label>
+<label id="q1c"><input type="radio" name="q1" value="c"> Profit only</label>
+<label id="q1d"><input type="radio" name="q1" value="d"> Production</label>
 </div>
 
 <div class="question">
 <h2>2. Marketing begins with:</h2>
 
-<label><input type="radio" name="q2" value="a"> Selling</label>
-<label><input type="radio" name="q2" value="b"> Advertising</label>
-<label><input type="radio" name="q2" value="c"> Customer needs</label>
-<label><input type="radio" name="q2" value="d"> Distribution</label>
+<label id="q2a"><input type="radio" name="q2" value="a"> Selling</label>
+<label id="q2b"><input type="radio" name="q2" value="b"> Advertising</label>
+<label id="q2c"><input type="radio" name="q2" value="c"> Customer needs</label>
+<label id="q2d"><input type="radio" name="q2" value="d"> Distribution</label>
 </div>
 
 <div class="question">
 <h2>3. Which is a core concept of marketing?</h2>
 
-<label><input type="radio" name="q3" value="a"> Cost</label>
-<label><input type="radio" name="q3" value="b"> Need</label>
-<label><input type="radio" name="q3" value="c"> Factory</label>
-<label><input type="radio" name="q3" value="d"> Supply</label>
+<label id="q3a"><input type="radio" name="q3" value="a"> Cost</label>
+<label id="q3b"><input type="radio" name="q3" value="b"> Need</label>
+<label id="q3c"><input type="radio" name="q3" value="c"> Factory</label>
+<label id="q3d"><input type="radio" name="q3" value="d"> Supply</label>
 </div>
 
 <div class="question">
 <h2>4. Marketing is:</h2>
 
-<label><input type="radio" name="q4" value="a"> Product-oriented</label>
-<label><input type="radio" name="q4" value="b"> Customer-oriented</label>
-<label><input type="radio" name="q4" value="c"> Sales-oriented</label>
-<label><input type="radio" name="q4" value="d"> Profit-oriented</label>
+<label id="q4a"><input type="radio" name="q4" value="a"> Product-oriented</label>
+<label id="q4b"><input type="radio" name="q4" value="b"> Customer-oriented</label>
+<label id="q4c"><input type="radio" name="q4" value="c"> Sales-oriented</label>
+<label id="q4d"><input type="radio" name="q4" value="d"> Profit-oriented</label>
 </div>
 
 <div class="question">
 <h2>5. Exchange is:</h2>
 
-<label><input type="radio" name="q5" value="a"> Buying only</label>
-<label><input type="radio" name="q5" value="b"> Selling only</label>
-<label><input type="radio" name="q5" value="c"> Giving & receiving value</label>
-<label><input type="radio" name="q5" value="d"> Advertising</label>
+<label id="q5a"><input type="radio" name="q5" value="a"> Buying only</label>
+<label id="q5b"><input type="radio" name="q5" value="b"> Selling only</label>
+<label id="q5c"><input type="radio" name="q5" value="c"> Giving & receiving value</label>
+<label id="q5d"><input type="radio" name="q5" value="d"> Advertising</label>
 </div>
 
 <button onclick="checkAnswers()">✅ Verify Answers</button>
@@ -198,36 +150,35 @@ const answers = {
     q5: "c"
 };
 
-function checkAnswers() {
+function checkAnswers(){
 
     let score = 0;
-    let total = Object.keys(answers).length;
 
-    for (let q in answers) {
+    for(let q in answers){
 
         let selected = document.querySelector(`input[name="${q}"]:checked`);
 
-        if(selected && selected.value === answers[q]) {
-            score++;
+        // Show correct answer
+        document.getElementById(q + answers[q]).classList.add("correct");
+
+        if(selected){
+
+            if(selected.value === answers[q]){
+                score++;
+            }
+            else{
+                document.getElementById(q + selected.value).classList.add("wrong");
+            }
         }
     }
 
-    let result = document.getElementById("result");
+    let total = Object.keys(answers).length;
 
-    result.innerHTML = `🎯 You scored ${score} / ${total}`;
+    document.getElementById("result").innerHTML =
+    `🎯 You scored ${score} / ${total}`;
 
-    if(score === total){
-        result.style.color = "green";
-        result.innerHTML += "<br>🏆 Excellent!";
-    }
-    else if(score >= 3){
-        result.style.color = "orange";
-        result.innerHTML += "<br>👍 Good Job!";
-    }
-    else{
-        result.style.color = "red";
-        result.innerHTML += "<br>📚 Keep Practicing!";
-    }
+    // Save score locally
+    localStorage.setItem("marketingQuizScore", score);
 }
 
 </script>
