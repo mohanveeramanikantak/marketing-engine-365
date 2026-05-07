@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 001 Quiz</title>
+</head>
+<body>
+
+<h1>Day 001 – Introduction to Marketing Quiz</h1>
+
+<h2>1. Marketing mainly focuses on:</h2>
+
+<input type="radio" name="q1" value="a"> Selling<br>
+<input type="radio" name="q1" value="b"> Customer needs<br>
+<input type="radio" name="q1" value="c"> Profit only<br>
+<input type="radio" name="q1" value="d"> Production<br>
+
+<hr>
+
+<h2>2. Marketing begins with:</h2>
+
+<input type="radio" name="q2" value="a"> Selling<br>
+<input type="radio" name="q2" value="b"> Advertising<br>
+<input type="radio" name="q2" value="c"> Customer needs<br>
+<input type="radio" name="q2" value="d"> Distribution<br>
+
+<hr>
+
+<h2>3. Which is a core concept of marketing?</h2>
+
+<input type="radio" name="q3" value="a"> Cost<br>
+<input type="radio" name="q3" value="b"> Need<br>
+<input type="radio" name="q3" value="c"> Factory<br>
+<input type="radio" name="q3" value="d"> Supply<br>
+
+<hr>
+
+<h2>4. Marketing is:</h2>
+
+<input type="radio" name="q4" value="a"> Product-oriented<br>
+<input type="radio" name="q4" value="b"> Customer-oriented<br>
+<input type="radio" name="q4" value="c"> Sales-oriented<br>
+<input type="radio" name="q4" value="d"> Profit-oriented<br>
+
+<hr>
+
+<h2>5. Exchange is:</h2>
+
+<input type="radio" name="q5" value="a"> Buying only<br>
+<input type="radio" name="q5" value="b"> Selling only<br>
+<input type="radio" name="q5" value="c"> Giving & receiving value<br>
+<input type="radio" name="q5" value="d"> Advertising<br>
+
+<hr>
+
+<button onclick="checkAnswers()">✅ Verify Answers</button>
+
+<h2 id="result"></h2>
+
+<script>
+const answers = {
+    q1: "b",
+    q2: "c",
+    q3: "b",
+    q4: "b",
+    q5: "c"
+};
+
+function checkAnswers() {
+    let score = 0;
+    let total = Object.keys(answers).length;
+
+    for (let q in answers) {
+        let selected = document.querySelector(`input[name="${q}"]:checked`);
+
+        if (selected && selected.value === answers[q]) {
+            score++;
+        }
+    }
+
+    document.getElementById("result").innerHTML =
+        `🎯 You scored ${score} / ${total}`;
+}
+</script>
+
+</body>
+</html>
