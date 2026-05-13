@@ -20,29 +20,35 @@
 
 ## Daily Log
 
-| Day | Date       | Topic                                 | Status |
-| --- | ---------- | ------------------------------------- | ------ |
-| 001 | 16-04-2026 | Introduction to Marketing             | ✅      |
-| 002 | 17-04-2026 | Consumer Behavior                     | ✅      |
-| 003 | 18-04-2026 | Needs vs Wants vs Demand              | ✅      |
-| 004 | 19-04-2026 | Marketing vs Selling                  | ✅      |
-| 005 | 20-04-2026 | 4Ps of Marketing                      | ✅      |
-| 006 | 21-04-2026 | 7Ps of Marketing                      | ✅      |
-| 007 | 22-04-2026 | Marketing Environment                 | ✅      |
-| 008 | 23-04-2026 | Micro vs Macro Environment            | ✅      |
-| 009 | 24-04-2026 | SWOT Analysis                         | ✅      |
-| 010 | 25-04-2026 | PESTLE Analysis                       | ✅      |
-| 011 | 26-04-2026 | Market Research Basics                | ✅      |
-| 012 | 27-04-2026 | Primary vs Secondary Research         | ✅      |
-| 013 | 28-04-2026 | Qualitative vs Quantitative Research  | ✅      |
-| 014 | 29-04-2026 | Consumer Behavior Intro               | ✅      |
-| 015 | 30-04-2026 | Buying Decision Process               | ✅      |
-| 016 | 01-05-2026 | Factors Influencing Consumer Behavior | ✅      |
-| 017 | 02-05-2026 | Market Segmentation                   | ✅      |
-| 018 | 03-05-2026 | Targeting Strategies                  | ✅      |
-| 019 | 04-05-2026 | Positioning                           | ✅      |
-| 020 | 05-05-2026 | Branding Intro                        | ⬜      |
-| 021 | 06-05-2026 | Branding Basics                       | ⬜      |
+| Module | Date       | Topic                                | Status |
+| ------ | ---------- | ------------------------------------ | ------ |
+| 001    | 16-04-2026 | Introduction to Marketing            | ✅      |
+| 002    | 17-04-2026 | Consumer Behavior Basics             | ✅      |
+| 003    | 18-04-2026 | Needs vs Wants vs Demand             | ✅      |
+| 004    | 19-04-2026 | Marketing vs Selling                 | ✅      |
+| 005    | 20-04-2026 | 4Ps of Marketing                     | ✅      |
+| 006    | 21-04-2026 | 7Ps of Marketing                     | ✅      |
+| 007    | 22-04-2026 | Marketing Environment                | ✅      |
+| 008    | 23-04-2026 | Micro vs Macro Environment           | ✅      |
+| 009    | 24-04-2026 | SWOT Analysis                        | ✅      |
+| 010    | 25-04-2026 | PESTLE Analysis                      | ✅      |
+| 011    | 26-04-2026 | Market Research Basics               | ✅      |
+| 012    | 27-04-2026 | Primary vs Secondary Research        | ✅      |
+| 013    | 28-04-2026 | Qualitative vs Quantitative Research | ✅      |
+| 014    | 29-04-2026 | Consumer Behavior Intro              | ✅      |
+| 015    | 30-04-2026 | Buying Decision Process              | ✅      |
+| 016    | 01-05-2026 | Factors Influencing Behavior         | ✅      |
+| 017    | 02-05-2026 | Market Segmentation                  | ✅      |
+| 018    | 03-05-2026 | Targeting Strategies                 | ✅      |
+| 019    | 04-05-2026 | Positioning                          | ✅      |
+| 020    | 05-05-2026 | Value Proposition                    | ✅      |
+| 021    | 06-05-2026 | Branding Basics                      | ✅      |
+| 022    | 07-05-2026 | Brand Identity vs Image              | ✅      |
+| 023    | 08-05-2026 | Product Life Cycle                   | ✅      |
+| 024    | 09-05-2026 | Pricing Basics                       | ✅      |
+| 025    | 10-05-2026 | Distribution Channels                | ✅      |
+| 026    | 11-05-2026 | Promotion Mix                        | ✅      |
+| 027    | 12-05-2026 | Integrated Marketing                 | ⬜      |
 
 ---
 
