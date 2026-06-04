@@ -28,24 +28,3 @@ Marketing Engine 365 is a **structured, day-by-day marketing program** designed 
 
 ---
 
-## 📁 Repository Structure
-```
-marketing-engine-365/
-├── modules/
-│ ├── Day-1 Introduction to Marketing
-│ ├── 
-│ ├── 
-│ └── ... (up to module-365)
-├── resources/
-│ ├── tools.md # Marketing tools list
-│ └── ai-prompts.md # AI prompts for marketing
-├── projects/
-│ ├── instagram-strategy/ # Phase 5 project
-│ ├── admission-funnel/ # College marketing project
-│ └── ai-chatbot/ # AI project
-│
-└── README.md # progress-tracker 365-day journey
-```
-
----
-
