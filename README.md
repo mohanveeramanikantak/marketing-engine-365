@@ -1,4 +1,4 @@
-# 🚀 Marketing Engine 365
+# 🚀 Marketing Engine 365  
 
 ## Your Complete 365-Day Marketing Mastery Journey
 
