@@ -5,7 +5,7 @@
 > From Marketing Fundamentals to AI-Powered Strategies — Learn, Build, and Execute.
 
 ---
-
+ 
 ## 🎯 What is Marketing Engine 365?
 
 Marketing Engine 365 is a **structured, day-by-day marketing program** designed to take you from absolute beginner to marketing professional in one year. Unlike traditional courses, this program focuses on **practical execution**, **real-world projects**, and **AI-integrated marketing strategies**.
