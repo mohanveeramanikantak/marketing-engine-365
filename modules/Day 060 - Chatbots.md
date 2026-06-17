@@ -1,0 +1,873 @@
+# Day 060 - Chatbots
+
+## Introduction
+
+A Chatbot is a software application designed to simulate human conversations through text or voice. Chatbots allow businesses to automate communication, answer questions, provide support, and assist users without requiring a human operator.
+
+Today, chatbots are used in:
+
+* Customer Support
+* Ecommerce
+* Banking
+* Healthcare
+* Education
+* Social Media
+* Marketing
+* Admissions
+
+Modern AI Chatbots powered by Large Language Models (LLMs) can understand natural language, retrieve information, reason over data, and generate human-like responses.
+
+In college marketing, chatbots can automate:
+
+* Admission inquiries
+* Course details
+* Scholarship information
+* Fee structure
+* Campus visits
+* Student support
+
+---
+
+# What is a Chatbot?
+
+A Chatbot can be defined as:
+
+> "A software application that interacts with users through text or voice and automatically responds to their queries."
+
+The goal is to:
+
+* Automate communication
+* Provide instant support
+* Improve user experience
+* Generate leads
+* Reduce operational costs
+
+---
+
+# History of Chatbots
+
+### ELIZA (1966)
+
+* First chatbot
+* Created by Joseph Weizenbaum
+* Rule-based system
+
+---
+
+### ALICE (1995)
+
+* Used pattern matching
+* Won multiple chatbot competitions
+
+---
+
+### Siri (2011)
+
+* Voice assistant by Apple
+
+---
+
+### Alexa (2014)
+
+* Voice assistant by Amazon
+
+---
+
+### ChatGPT (2022)
+
+* AI Chatbot powered by Large Language Models
+
+---
+
+### Modern Chatbots
+
+Powered by:
+
+* GPT
+* Gemini
+* Claude
+* Llama
+* Mistral
+
+These chatbots use:
+
+* LLMs
+* RAG
+* AI Agents
+* Tool Calling
+* Memory Systems
+
+---
+
+# Why Chatbots are Important
+
+Chatbots help businesses:
+
+* Provide 24×7 support
+* Reduce customer wait time
+* Automate repetitive tasks
+* Improve customer experience
+* Generate leads automatically
+* Scale communication
+
+---
+
+# Types of Chatbots
+
+---
+
+## 1. Rule-Based Chatbots
+
+Work using:
+
+* Predefined rules
+* Decision trees
+* If-Else logic
+
+Example:
+
+```python
+if question == "Fees":
+    print("Tuition fee is ₹70,000")
+```
+
+Advantages:
+
+* Simple
+* Fast
+* Easy to build
+
+Disadvantages:
+
+* Cannot understand complex queries
+* Limited flexibility
+
+---
+
+## 2. Menu-Based Chatbots
+
+Provide menus to users.
+
+Example:
+
+```text
+1 → Admissions
+
+2 → Courses
+
+3 → Fees
+
+4 → Placements
+```
+
+Users select options instead of typing.
+
+---
+
+## 3. Keyword-Based Chatbots
+
+Detect keywords.
+
+Example:
+
+User:
+
+```text
+Tell me about fees
+```
+
+Keyword:
+
+```text
+fees
+```
+
+Bot:
+
+```text
+Fee details are ...
+```
+
+---
+
+## 4. AI Chatbots
+
+AI Chatbots understand:
+
+* Natural Language
+* Context
+* User intent
+
+Examples:
+
+* ChatGPT
+* Gemini
+* Claude
+
+AI Chatbots are powered by:
+
+* NLP
+* LLMs
+* RAG
+* Vector Databases
+
+---
+
+## 5. Voice Chatbots
+
+Communicate through speech.
+
+Examples:
+
+* Siri
+* Alexa
+* Google Assistant
+
+Components:
+
+* Speech-to-Text
+* LLM
+* Text-to-Speech
+
+---
+
+## 6. Hybrid Chatbots
+
+Combine:
+
+* Rules
+* AI
+* APIs
+
+Most enterprise chatbots are hybrid systems.
+
+---
+
+# Chatbot Architecture
+
+A chatbot consists of multiple components.
+
+```text
+User
+
+↓
+
+User Interface
+
+↓
+
+NLP Engine
+
+↓
+
+Intent Recognition
+
+↓
+
+Knowledge Base / Vector DB
+
+↓
+
+LLM / Backend APIs
+
+↓
+
+Response Generation
+
+↓
+
+User
+```
+
+---
+
+# User Interface
+
+Users interact through:
+
+* Website chat widget
+* WhatsApp
+* Mobile App
+* Telegram
+* Voice Assistant
+
+---
+
+# Natural Language Processing (NLP)
+
+NLP helps chatbots understand:
+
+* Grammar
+* Meaning
+* Context
+* Intent
+
+Example:
+
+User:
+
+```text
+What is the fee for AI course?
+```
+
+NLP extracts:
+
+Intent:
+
+```text
+Course Fees
+```
+
+Entity:
+
+```text
+AI Course
+```
+
+---
+
+# Intent Recognition
+
+Intent represents:
+
+> What the user wants.
+
+Examples:
+
+| User Query                  | Intent     |
+| --------------------------- | ---------- |
+| Tell me fee details         | Fees       |
+| What courses are available? | Courses    |
+| Is hostel available?        | Hostel     |
+| How to apply?               | Admissions |
+
+---
+
+# Entity Extraction
+
+Entities are important information extracted from text.
+
+Example:
+
+```text
+What is AI course fee?
+```
+
+Entities:
+
+* Course = AI
+* Topic = Fees
+
+---
+
+# Knowledge Base
+
+Stores chatbot information.
+
+Examples:
+
+* FAQs
+* PDFs
+* Databases
+* JSON files
+* Websites
+
+Example:
+
+Admission FAQ JSON:
+
+```json
+{
+ "fees":"₹70,000",
+ "hostel":"Available",
+ "placements":"95%"
+}
+```
+
+---
+
+# Backend APIs
+
+Chatbots often connect to APIs.
+
+Examples:
+
+* Gemini API
+* OpenAI API
+* Weather API
+* CRM API
+* Payment API
+
+APIs allow chatbots to access live information.
+
+---
+
+# Response Generation
+
+Responses can be generated through:
+
+### Rules
+
+```text
+Fixed Answers
+```
+
+### Templates
+
+```text
+Hello {name}
+```
+
+### LLMs
+
+Dynamic responses generated by AI.
+
+---
+
+# AI Chatbots
+
+AI Chatbots use:
+
+* NLP
+* Large Language Models
+* Retrieval Systems
+* Memory
+* Tool Calling
+
+Examples:
+
+* ChatGPT
+* Gemini
+* Claude
+* Microsoft Copilot
+
+---
+
+# LLM-Based Chatbots
+
+Powered by:
+
+* GPT
+* Gemini
+* Claude
+* Llama
+* Mistral
+
+Advantages:
+
+* Human-like responses
+* Context awareness
+* Multi-step reasoning
+
+---
+
+# Retrieval-Augmented Generation (RAG)
+
+RAG combines:
+
+* LLM
+* External Knowledge Base
+
+Architecture:
+
+```text
+User Question
+
+↓
+
+Embedding Model
+
+↓
+
+Vector Database
+
+↓
+
+Relevant Documents
+
+↓
+
+LLM
+
+↓
+
+Answer
+```
+
+Advantages:
+
+* Reduces hallucination
+* Uses custom data
+* Supports PDFs and documents
+
+Examples:
+
+* PDF Chatbot
+* College FAQ Bot
+* Research Assistant
+
+---
+
+# Multi-Agent Chatbots
+
+Multiple AI Agents collaborate.
+
+Example:
+
+```text
+User
+
+↓
+
+Admission Agent
+
+↓
+
+Fee Agent
+
+↓
+
+Placement Agent
+
+↓
+
+Final Answer
+```
+
+Advantages:
+
+* Better specialization
+* Modular architecture
+
+---
+
+# Memory in Chatbots
+
+Memory helps chatbots remember:
+
+* User preferences
+* Previous conversations
+* Context
+
+Types:
+
+### Short-Term Memory
+
+Stores current conversation.
+
+---
+
+### Long-Term Memory
+
+Stores:
+
+* User profile
+* History
+* Preferences
+
+---
+
+# Chatbot Platforms
+
+Popular chatbot frameworks:
+
+### Dialogflow
+
+Google's NLP platform.
+
+---
+
+### Microsoft Bot Framework
+
+Enterprise chatbot framework.
+
+---
+
+### Rasa
+
+Open-source AI chatbot framework.
+
+---
+
+### Botpress
+
+Visual chatbot builder.
+
+---
+
+### OpenAI API
+
+Used for GPT-based chatbots.
+
+---
+
+### Gemini API
+
+Used for Gemini-powered applications.
+
+---
+
+# Chatbot Use Cases
+
+---
+
+## Customer Support
+
+Examples:
+
+* Banking support
+* Ecommerce support
+
+---
+
+## Lead Generation
+
+Collect:
+
+* Names
+* Emails
+* Phone numbers
+
+---
+
+## FAQ Automation
+
+Answer:
+
+* Frequently Asked Questions
+
+---
+
+## Appointment Booking
+
+Book:
+
+* Doctor appointments
+* Campus visits
+
+---
+
+## Educational Chatbots
+
+Examples:
+
+* AI Tutor
+* Exam Assistant
+* Course Assistant
+
+---
+
+## Admission Chatbots
+
+Answer:
+
+* Courses
+* Fees
+* Placements
+* Scholarships
+* Hostel
+
+---
+
+# College Admission Chatbot Architecture
+
+```text
+Student
+
+↓
+
+Web Chat / WhatsApp
+
+↓
+
+Gemini API
+
+↓
+
+RAG System
+
+↓
+
+Vector Database
+
+↓
+
+College PDFs
+
+↓
+
+Response
+
+↓
+
+Student
+```
+
+---
+
+# Chatbot Metrics
+
+Important metrics:
+
+### Response Time
+
+How quickly chatbot replies.
+
+---
+
+### User Satisfaction
+
+How satisfied users are.
+
+---
+
+### Resolution Rate
+
+Percentage of problems solved.
+
+---
+
+### Engagement Rate
+
+Measures:
+
+* Conversations
+* Messages exchanged
+
+---
+
+### Conversion Rate
+
+Measures:
+
+* Leads generated
+* Admissions completed
+
+---
+
+# AI in Chatbots
+
+Modern AI Chatbots use:
+
+* Large Language Models
+* AI Agents
+* RAG
+* Memory Systems
+* Tool Calling
+* Workflow Automation
+
+AI enables:
+
+* Personalized conversations
+* Better reasoning
+* Real-time information access
+
+---
+
+# AI Practice Prompts
+
+## Prompt 1
+
+```text
+Act as an AI Engineer. Design a College Admission Chatbot using Gemini API and RAG.
+```
+
+---
+
+## Prompt 2
+
+```text
+Explain the architecture of an AI Chatbot using LLM, Vector Database, and RAG.
+```
+
+---
+
+## Prompt 3
+
+```text
+Generate a conversation flow for an engineering college admission chatbot.
+```
+
+---
+
+# Chatbots in College Marketing
+
+Colleges can build chatbots for:
+
+* Admissions
+* Scholarships
+* Campus tours
+* FAQs
+* Placements
+* Student Support
+
+Benefits:
+
+* 24×7 availability
+* Faster responses
+* Reduced workload
+* Better student experience
+
+---
+
+# Ethical AI Chatbots
+
+Businesses should:
+
+* Protect user privacy
+* Avoid biased responses
+* Clearly identify AI systems
+* Secure user data
+* Maintain transparency
+
+Ethical AI builds trust.
+
+---
+
+# Real-World Examples
+
+### ChatGPT
+
+Uses:
+
+* GPT
+* Memory
+* Tool Calling
+
+---
+
+### Gemini
+
+Uses:
+
+* Multimodal AI
+* Long context windows
+
+---
+
+### College Admission Chatbots
+
+Used for:
+
+* Admission support
+* Course recommendations
+* Lead generation
+* Student engagement
+
+---
+
+# Conclusion
+
+Chatbots have evolved from simple rule-based systems to intelligent AI assistants powered by LLMs, RAG, and AI Agents.
+
+Businesses use chatbots to automate support, generate leads, and improve customer experience.
+
+In college marketing, chatbots can significantly improve admissions, student engagement, and support systems.
+
+As AI advances, chatbots are becoming smarter, more personalized, and capable of performing complex workflows.
+
+---
+
+# 🔥 Key Insight
+
+Chatbots become powerful when they combine Natural Language Processing, Large Language Models, Retrieval Systems, Memory, and AI Agents to deliver intelligent, personalized, and scalable conversations.
